@@ -1,10 +1,10 @@
-define(`dc_title', `Note Document Template')dnl
-define(`dc_title_alternative', `Note Template')dnl
-define(`dc_title_short', `Note Template')dnl
+define(`dc_title', `Using Excel LINEST for Polynomial Least Squares')dnl
+define(`dc_title_alternative', `Using Excel LINEST for Polynomial Least Squares')dnl
+define(`dc_title_short', `Excel LINEST')dnl
 define(`dc_title_subtitle', `N/A')dnl
-define(`dc_keyword_1', `note')dnl
-define(`dc_keyword_2', `template')dnl
-define(`dc_keyword_3', `')dnl
+define(`dc_keyword_1', `Excel')dnl
+define(`dc_keyword_2', `least squares')dnl
+define(`dc_keyword_3', `weighted')dnl
 define(`dc_keyword_4', `')dnl
 define(`dc_keyword_5', `')dnl
 define(`dc_keyword_6', `')dnl
@@ -37,7 +37,7 @@ define(`dc_description_note', `(N/A)')dnl
 define(`dc_description_release', `(N/A)')dnl
 define(`dc_description_tableOfContents', `(N/A)')dnl
 define(`dc_type', `text/markdown; charset=UTF-8')dnl
-define(`dc_source', `https://github.com/markj1069/templates-J70413419/tree/master/doc/Y11-0801/V00')dnl
+define(`dc_source', `https://github.com/markj1069/lsq-J71953071/tree/K17-8814-Base/doc/K17-8814-Excel-LINEST/V00')dnl
 define(`dc_relation', `Version 00')dnl
 define(`dc_relation_isVersionOf', `(N/A)')dnl
 define(`dc_relation_hasVersion', `(N/A)')dnl
@@ -72,20 +72,20 @@ define(`dc_date_valid', `YYYY-MM-DD')dnl
 define(`dc_date_available', `YYYY-MM-DD')dnl
 define(`dc_date_issued', `YYYY-MM-DD')dnl
 define(`dc_date_modified', `YYYY-MM-DD')dnl
-define(`dc_format', `Note')dnl
+define(`dc_format', `Article')dnl
 define(`dc_format_extent', `(N/A)')dnl
 define(`dc_format_medium', `Markdown')dnl
-define(`dc_identifier', `Y11-9801-00')dnl
+define(`dc_identifier', `K11-8814-00')dnl
 define(`dc_identifier_bibliographicCitation', `(N/A)')dnl
-define(`dc_identifier_doc', `Y11-9801-00')dnl
-define(`dc_identifier_func', `Education & Training')dnl
-define(`dc_identifier_proj', `J70413419')dnl
+define(`dc_identifier_doc', `K11-8814-00')dnl
+define(`dc_identifier_func', `Mathematical/Numerical Methods')dnl
+define(`dc_identifier_proj', `J71953071')dnl
 define(`dc_language', `en-US')dnl
 define(`dc_accrualMethod', `Item Creation')dnl
 define(`dc_accrualPeriodicity', `(N/A)')dnl
 define(`dc_accrualPolicy', `(N/A)')dnl
 define(`dc_audience', `Other')dnl # Select appropriate items.
-define(`dc_audience_educationLevel', `(N/A)')dnl # Select education levels.
+define(`dc_audience_educationLevel', `Beyond the First Year')dnl # Select education levels.
 define(`dc_instructionalMethod', `(N/A)')dnl
 define(`dc_provenance', `Item Creation')dnl
 define(`dc_rightsHolder', `Mark J. Jensen')dnl

@@ -15,13 +15,13 @@ SED = /usr/bin/sed
 all:	doc.o.mkd doc.o.yaml doc.m4
 	pandoc doc.o.mkd \
     	--read=markdown --write=html5 \
-    	--citeproc --bibliography=/mnt/d/db/Zotero/My-Library.yaml \
+    	--bibliography=/mnt/d/db/Zotero/My-Library.yaml \
     	--metadata=link-citations --metadata-file=doc.o.yaml \
     	--standalone --shift-heading-level-by=-1 \
     	--output=doc.html
 	pandoc doc.o.mkd \
     	--read=markdown --write=pdf \
-    	--citeproc --bibliography=/mnt/d/db/Zotero/My-Library.yaml \
+    	--bibliography=/mnt/d/db/Zotero/My-Library.yaml \
     	--metadata=link-citations --metadata-file=doc.o.yaml \
     	--standalone --shift-heading-level-by=-1 \
     	--output=doc.pdf
@@ -36,7 +36,7 @@ doc.o.mkd:		doc.m4 doc.mkd doc.o.yaml
 doc.html html:	doc.o.mkd doc.o.yaml doc.m4
 	pandoc doc.o.mkd \
     	--read=markdown --write=html5 --mathjax \
-    	--citeproc --bibliography=/mnt/d/db/Zotero/My-Library.yaml \
+    	--bibliography=/mnt/d/db/Zotero/My-Library.yaml \
     	--metadata=link-citations --metadata-file=doc.o.yaml \
     	--standalone --shift-heading-level-by=-1 \
     	--output=doc.html
@@ -44,7 +44,7 @@ doc.html html:	doc.o.mkd doc.o.yaml doc.m4
 doc.pdf pdf:	doc.o.mkd doc.o.yaml doc.m4
 	pandoc doc.o.mkd \
     	--read=markdown --write=pdf \
-    	--citeproc --bibliography=/mnt/d/db/Zotero/My-Library.yaml \
+    	--bibliography=/mnt/d/db/Zotero/My-Library.yaml \
     	--metadata=link-citations --metadata-file=doc.o.yaml \
     	--standalone --shift-heading-level-by=-1 \
     	--output=doc.pdf
