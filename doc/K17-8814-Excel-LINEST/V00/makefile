@@ -54,5 +54,6 @@ clean:
 
 cleanall:
 	rm -f doc.o.mkd  doc.o.yaml *.tmp
+	rm -f var/~*.xlxs var/~*.xls
 	rm -f doc.html doc.pdf
 
